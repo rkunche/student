@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fee_details_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Fee details" />
+
+    <EditText
+        android:id="@+id/amount_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter amout" />
+
+    <Button
+        android:id="@+id/add_money_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Fee" />
+    <!--<view-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#000000"-->
+        <!--android:layout_height="1dp"></view>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/section_details_id"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:id="@+id/list_view"></ListView>
+</LinearLayout>

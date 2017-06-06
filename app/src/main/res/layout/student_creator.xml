@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_height="match_parent">
+  <EditText
+      android:layout_width="200dp"
+      android:layout_height="48dp"
+      android:id="@+id/roll_num_id"
+      android:hint="Enter number"/>
+  <EditText
+      android:layout_width="200dp"
+      android:layout_height="48dp"
+      android:id="@+id/name_id"
+      android:hint="Enter name"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:id="@+id/age_id"
+        android:hint="Enter age"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:id="@+id/num_id"
+        android:hint="Enter number"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:id="@+id/fee_id"
+        android:hint="Enter fee"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:id="@+id/sec_id"
+        android:hint="Enter section"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/create_id"
+      android:text="Create"/>
+</LinearLayout>
